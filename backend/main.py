@@ -194,3 +194,12 @@ def analytics():
 def heatmap():
 
     return get_heatmap_data()
+
+
+@app.get("/")
+def home():
+    return {
+        "project": "Store Intelligence System",
+        "status": "running",
+        "docs": "/docs"
+    }
