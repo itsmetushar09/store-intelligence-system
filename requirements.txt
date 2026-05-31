@@ -1,0 +1,13 @@
+
+ultralytics
+opencv-python
+supervision
+numpy
+pandas
+fastapi
+uvicorn
+streamlit
+sqlalchemy
+python-multipart
+matplotlib
+plotly

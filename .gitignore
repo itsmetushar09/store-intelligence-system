@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# Database
+database/*.db
+
+# Videos
+data/*.mp4
+data/*.avi
+data/*.mov
+
+# Outputs
+output/
+outputs/
+*.mp4
+
+# VS Code
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
