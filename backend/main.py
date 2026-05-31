@@ -1,9 +1,14 @@
 from fastapi import FastAPI
+from sqlalchemy import engine
 
-from backend.database import SessionLocal
+from backend.database import Base, SessionLocal
 from backend.models import Event
 from backend.analytics import get_zone_analytics
 from backend.heatmap import get_heatmap_data
+
+
+
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Store Intelligence API"
